@@ -1,5 +1,6 @@
 export class Gif {
-    constructor(public title,public userName,public image){
+
+    constructor(public title,public username,public imgURL:string){
 
     }
 }
